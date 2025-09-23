@@ -81,17 +81,18 @@ These definitions follow Snowflake best practices:
 
 ## 5. Project Iterations & Deliverables
 
+
 ### Iteration 1: Infrastructure Setup
 - Provision AWS resources (S3, Lambda, IAM)
 - Set up Terraform scripts
 - Deliverable: Working AWS infrastructure, Terraform state
-- Status: _Pending_
+- Status: _Completed_
 
 ### Iteration 2: Data Ingestion & ETL Lambda
 - Develop Python Lambda for ingesting and transforming financial data
 - Store raw and processed data in S3
 - Deliverable: Lambda function, S3 buckets, sample data flow
-- Status: _Pending_
+- Status: _In Progress_
 
 ### Iteration 3: Snowflake Integration
 - Configure Snowflake connection
@@ -105,6 +106,17 @@ These definitions follow Snowflake best practices:
 - Complete project documentation
 - Deliverable: Monitoring dashboards, documentation
 - Status: _Pending_
+
+---
+
+## 8. Project Status & Closure
+
+As of September 23, 2025, the project is being paused. The following has been completed:
+- AWS infrastructure provisioned and tracked with Terraform
+- BRD finalized with Snowflake-compliant data model and audit columns
+- Initial Lambda function and S3 setup
+
+Further development will resume at a later date. All documentation and code are up to date in the repository.
 
 ## 6. Success Criteria
 - All iterations completed and deliverables accepted
